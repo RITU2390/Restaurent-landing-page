@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurent</title>
+    <style>
+       
+        nav{
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+        }
+        nav img{
+            width: 50px;
+        }
+        nav a{
+            padding-right: 50px;
+            color: #000;
+        }
+        nav a:hover{
+            color: saddlebrown;
+            font-weight: bold;
+        }
+        nav button {
+            margin-left: 60%;
+            padding: 10px 0px;
+            border: 0;
+            border-radius: 5px;
+            background-color: #0fdb6b;
+            color: #000;
+            font-weight: bold;
+        }
+      .container {
+        max-width: 1200px;
+        height: 100vh;
+        margin: auto;
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        border: 0px solid black;
+        padding: 10px;
+        gap: 20px;
+        align-items: center;
+      }
+
+
+      .text-section {
+        padding: 0px 50px;
+      }
+
+
+      .image-section {
+        background-color: yellow;
+        height: 100%;
+        max-height: 95vh;
+      }
+
+
+      .text-section h1 {
+        font-size: 40px;
+      }
+
+
+      .text-section p {
+        color: #4c665d;
+      }
+
+
+      .text-section button {
+        padding: 10px 50px;
+        border: 0;
+        background-color: #000;
+        color: #fff;
+        margin-top: 30px;
+        font-size: large;
+      }
+
+
+      .image-section img {
+        width: 75%;
+        height: 100%;
+      }
+      .online-options {
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        background-color: #3d2415;
+      }
+      .sub-section {
+        margin: 10px 50px;
+        text-align: center;
+      }
+      .sub-section img {
+        width: 150px;
+      }
+      .sub-section h1 {
+        color: #ffff;
+      }
+      .sub-section p {
+        color: #8c6e54;
+      }
+      .sub-section3-heading {
+        margin-top: 70px;
+      }
+
+
+      .service {
+        max-width: 1200px;
+        margin: auto;
+        column-gap: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 30px 0px;
+      }
+   
+      .service .sub-section {
+        text-align: center;
+        margin-bottom: 0px;
+        width: 100%;
+        overflow: hidden;
+        margin-left: -4px;
+        border-radius: 25px 25px 0px 0px;
+      }
+
+
+      .service .sub-section img {
+        text-align:center;
+        width: 100%;
+        height: 280px;
+        margin-top: -50px;
+      }
+
+
+      .service .sub-section h1 {
+        margin: 0px;
+        padding: 5px 0px;
+        font-size: 30px;
+        color: #3d2415;
+      }
+     
+      .service .sub-section p {
+        margin-top: 0px;
+        font-size: 15px;
+      }
+
+
+      .service .text-section {
+        position: relative;
+        background-color: #fff;
+        top: -1%;
+        margin-top: 0px;
+        text-align: left;
+        border: 1px solid #000000;
+        border-radius: 0px 0px 25px 25px;
+      }
+      .text-section-03 {
+        position: relative;
+        background-color: #fff;
+        top: -1%;
+        margin-top: 0px;
+        text-align: left;
+        border: 1px solid black;
+        border-radius: 0px 0px 25px 25px;
+      }
+      footer{
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: #2b1e16;
+        padding: 50px;
+      }
+
+
+      footer img {
+        width: 300px;
+        text-align: center;
+        padding: 20px;
+      }
+
+
+      footer a {
+        display: block;
+        padding: 15px;
+        color: #8c6e54;
+      }
+
+
+      footer h1 {
+        color: #fff;
+      }
+     
+      footer p {
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        color: #fff;
+      }
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="gallery/reastaurent-logo.webp" alt="restaurent-logo">
+        <div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <button>Login</button>
+    </nav>
+    <div class="container">
+        <section class="text-section">
+            <h1>Healthy Food</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repudiandae vitae maiores facere consequatur iusto sunt modi, explicabo provident eaque necessitatibus soluta voluptas. Expedita similique quo nulla, aut eligendi officiis harum minima necessitatibus atque asperiores molestias rerum porro? Dolores sint impedit dignissimos praesentium a optio dolorum nemo voluptate, explicabo iste consectetur minima porro numquam exercitationem eum.</p>
+            <button>Read More</button>
+        </section>
+        <section class="image-section">
+            <img src="gallery/food.jpg" alt="Healthy food">
+        </section>
+    </div>
+    <section class="online-options">
+        <div class="sub-section">
+            <img src="gallery/No_min_order.webp" alt="sub-section1">
+            <h1>No Minimum Order</h1>
+            <p>"Order in for yourself or for the group, with no restrictions on order value"</p>
+        </div>
+        <div class="sub-section">
+            <img src="gallery/Live_order.webp" alt="sub-section2">
+            <h1>Live Order Tracking</h1>
+            <p>"Know where your order is at all time, from restaurant to your doorstep"</p>
+        </div>
+        <div class="sub-section">
+            <img src="gallery/Super_fast_delivery.webp" alt="sub-section3">
+            <h1 class="sub-section3-heading">Lightning-Fast Delivery</h1>
+            <p>"Experience swiggy's superfast delivery for food delivered fresh & on time"</p>
+        </div>
+    </section>
+    <section class="service">
+        <div class="sub-section">
+            <img src="gallery/fast-food-online.jpg" alt="image-1-section">
+            <div class="text-section">
+                <h1>Order Online</h1>
+                <p>Stay Home and order to your Door step</p>
+            </div>
+        </div>
+        <div class="sub-section">
+            <img src="gallery/dine-in.webp" alt="image-2-section">
+            <div class="text-section">
+                <h1>On-site Dining</h1>
+                <p>View the city's favourite dining venues</p>
+            </div>
+        </div>
+        <div class="sub-section">
+            <img src="gallery/nightlife.jpg" alt="image-3-section">
+            <div class="text-section-03">
+                <h1>Nightlife & Clubs</h1>
+                <p>Explore the city's top nightlife outlets & Book tables</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+      <img src="gallery/reastaurent-logo.webp" alt="Logo">
+      <div>
+        <h1>Navigation Links</h1>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Login</a>
+      </div>
+      <div>
+        <h1>Learn More</h1>
+        <a href="#">Privacy</a>
+        <a href="#">Security</a>
+        <a href="#">Terms</a>
+        <a href="#">Sitemap</a>
+      </div>
+      <p>© Copyright All rights Reserved</p>
+    </footer>
+</body>
+</html>
